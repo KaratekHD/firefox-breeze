@@ -1,0 +1,23 @@
+ {
+    "description": "Theme looking like KDE Breeze",
+    "homepage_url": "https://github.com/KaratekHD/breeze-firefox",
+    "manifest_version": 2,
+    "name": "KDE Default Breeze",
+    "permissions": [
+      "theme"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "version": "4.0",
+    "browser_specific_settings": {
+      "gecko": {
+        "strict_min_version": "55.0a2"
+      }
+    },
+    "icons": {
+      "48": "icons/kouper-breeze.svg",
+      "96": "icons/kouper-breeze.svg"
+    }
+  }
+  
